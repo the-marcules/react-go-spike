@@ -1,0 +1,26 @@
+.navigationWrapper {
+    margin: 1px;
+}
+
+.navigationList {
+    list-style-type: none;
+}
+
+.navigationListItem {
+    display: inline-block;
+    padding: 4px;
+    border-bottom: 2px solid;
+    border-color: transparent;
+    margin: 0px 3px 0px 3px;
+}
+
+.navigationListItem a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navigationListItem:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-color: coral;
+}
