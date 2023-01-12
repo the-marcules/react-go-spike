@@ -1,0 +1,19 @@
+.title {
+    font-weight: normal;
+    text-align: left;
+    flex: 1 0 auto;
+    padding-left: 25px;
+}
+.titleBold {
+    font-weight: bold
+}
+.headline {
+    display: flex;
+}
+.titleImage {
+    text-align: center;
+    border-bottom: 1px dashed #333;
+}
+.wrapper {
+    border-bottom: 1px solid #000;
+}

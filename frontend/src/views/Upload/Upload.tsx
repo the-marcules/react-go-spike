@@ -1,4 +1,4 @@
-import './Upload.css';
+import styles from '../../style/Upload.module.css';
 import { ChangeEvent, useState } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 
@@ -44,11 +44,11 @@ export default function Upload() {
                 <h2>{t('welcome')}</h2>
                 <p>{t('subWelcome')}</p>
             </div>
-            <div className="upload-div">
+            <div className={styles.uploadInput}>
                 <h3>{t('file-upload-heading')}</h3>
                 <input type="file" name="file" onChange={selectFile}></input>
             </div>
-            <div className="upload-div">
+            <div className={styles.uploadInput}>
                 <button onClick={uploadFile}>{t('Upload')}</button>
             </div>
         </div>
